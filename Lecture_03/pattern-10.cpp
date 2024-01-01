@@ -9,12 +9,12 @@ int main()
     int rows = 1;
     while (rows <= n)
     {
-        int value = rows;
+        // int value = rows;
         int column = 1;
         while (column <= rows)
         {
-            cout << value;
-            value--;
+            cout << rows - column + 1 << " ";
+            // value--;
             column++;
         }
         cout << endl;

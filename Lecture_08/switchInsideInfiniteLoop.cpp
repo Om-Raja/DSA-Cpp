@@ -3,26 +3,25 @@
 using namespace std;
 int main()
 {
-    // use exit() to get out of infinite loop 
+    // use exit() to get out of infinite loop
     char ch = 'a';
     while (1)
     {
-        switch(ch)
+        switch (ch)
         {
-            case 'a' :
+        case 'a':
             cout << "a ";
             // break;
             exit(0);
 
-            case 'b' :
+        case 'b':
             cout << "b ";
             // break;
 
-            default :
+        default:
             cout << "This is default";
-
         }
-            // exit(0);
+        // exit(0);
     }
     return 0;
 }
